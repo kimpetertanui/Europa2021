@@ -1,4 +1,4 @@
-package com.shrikanthravi.customnavigationdrawer2.widget;
+package com.sports.customnavigationdrawer2.widget;
 
 import android.content.Context;
 import android.content.res.TypedArray;
@@ -16,8 +16,8 @@ import android.widget.RelativeLayout;
 import android.widget.ScrollView;
 import android.widget.TextView;
 
-import com.shrikanthravi.customnavigationdrawer2.R;
-import com.shrikanthravi.customnavigationdrawer2.data.MenuItem;
+import com.sports.customnavigationdrawer2.R;
+import com.sports.customnavigationdrawer2.data.MenuItem;
 
 import java.lang.annotation.Retention;
 import java.lang.annotation.RetentionPolicy;

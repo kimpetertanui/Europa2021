@@ -1,4 +1,4 @@
-package com.shrikanthravi.customnavigationdrawer2.data;
+package com.sports.customnavigationdrawer2.data;
 
 
 public class MenuItem {

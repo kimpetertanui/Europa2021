@@ -1,11 +1,11 @@
-package com.shrikanthravi.customnavigationdrawer2.utils;
+package com.sports.customnavigationdrawer2.utils;
 
 import android.content.Context;
 import android.util.AttributeSet;
 import android.view.LayoutInflater;
 import android.view.View;
 
-import com.shrikanthravi.customnavigationdrawer2.widget.SNavigationDrawer;
+import com.sports.customnavigationdrawer2.widget.SNavigationDrawer;
 
 public class CustomViewFactory implements LayoutInflater.Factory {
     private static CustomViewFactory mInstance;

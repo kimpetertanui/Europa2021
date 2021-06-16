@@ -1,4 +1,4 @@
-package com.shrikanthravi.customnavigationdrawer2;
+package com.sports.customnavigationdrawer2;
 
 import org.junit.Test;
 

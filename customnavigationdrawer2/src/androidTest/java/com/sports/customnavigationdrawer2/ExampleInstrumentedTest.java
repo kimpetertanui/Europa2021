@@ -1,4 +1,4 @@
-package com.shrikanthravi.customnavigationdrawer2;
+package com.sports.customnavigationdrawer2;
 
 import android.content.Context;
 import androidx.test.platform.app.InstrumentationRegistry;
@@ -21,6 +21,6 @@ public class ExampleInstrumentedTest {
         // Context of the app under test.
         Context appContext = InstrumentationRegistry.getTargetContext();
 
-        assertEquals("com.shrikanthravi.customnavigationdrawer2.test", appContext.getPackageName());
+        assertEquals("com.sports.customnavigationdrawer2.test", appContext.getPackageName());
     }
 }

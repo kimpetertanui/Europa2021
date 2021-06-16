@@ -1,4 +1,4 @@
-package com.shrikanthravi.customnavigationdrawer;
+package com.sports.betapp;
 
 import org.junit.Test;
 

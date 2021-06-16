@@ -11,7 +11,7 @@ import com.sports.customnavigationdrawer2.widget.SNavigationDrawer;
 import java.util.ArrayList;
 import java.util.List;
 
-public class Main2Activity extends AppCompatActivity {
+public class MainActivity extends AppCompatActivity {
 
     SNavigationDrawer sNavigationDrawer;
     int color1=0;
@@ -21,17 +21,17 @@ public class Main2Activity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main2);
+        setContentView(R.layout.activity_main);
         if(getSupportActionBar()!=null) {
             getSupportActionBar().hide();
         }
 
         sNavigationDrawer = findViewById(R.id.navigationDrawer);
         List<MenuItem> menuItems = new ArrayList<>();
-        menuItems.add(new MenuItem("News",R.drawable.news_bg));
-        menuItems.add(new MenuItem("Feed",R.drawable.feed_bg));
-        menuItems.add(new MenuItem("Messages",R.drawable.message_bg));
-        menuItems.add(new MenuItem("Music",R.drawable.music_bg));
+        menuItems.add(new MenuItem("Fixtures-Results",R.drawable.news_bg));
+        menuItems.add(new MenuItem("Qualifying",R.drawable.feed_bg));
+        menuItems.add(new MenuItem("Group Stage",R.drawable.message_bg));
+        menuItems.add(new MenuItem("Top Scores",R.drawable.music_bg));
         sNavigationDrawer.setMenuItemList(menuItems);
         fragmentClass =  NewsFragment.class;
         try {

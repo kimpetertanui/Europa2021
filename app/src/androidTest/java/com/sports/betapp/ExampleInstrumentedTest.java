@@ -1,4 +1,4 @@
-package com.shrikanthravi.customnavigationdrawer;
+package com.sports.betapp;
 
 import android.content.Context;
 import androidx.test.platform.app.InstrumentationRegistry;
@@ -21,6 +21,6 @@ public class ExampleInstrumentedTest {
         // Context of the app under test.
         Context appContext = InstrumentationRegistry.getTargetContext();
 
-        assertEquals("com.shrikanthravi.customnavigationdrawer", appContext.getPackageName());
+        assertEquals("com.sports.betapp", appContext.getPackageName());
     }
 }
